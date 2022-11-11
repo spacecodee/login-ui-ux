@@ -1,6 +1,7 @@
 const pswrdField = document.querySelector(".content input[type='password']"),
     toggleBtn = document.querySelector(".content .pass i");
 
+//agregar ojo al textfield de la contraseña
 toggleBtn.onclick = () => {
     if (pswrdField.type === "password") {
         pswrdField.type = "text";
